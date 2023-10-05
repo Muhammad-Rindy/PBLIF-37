@@ -79,21 +79,21 @@
                                     </a>
                                     @if (Auth::user()->is_admin)
                                         <a class="dropdown-item" href="{{ route('create_lecturer') }}">
-                                            Tambah Dosen
+                                            Tambah Data Dosen
                                         </a>
                                         <a class="dropdown-item" href="{{ route('create_room') }}">
-                                            Tambah Ruangan
+                                            Tambah Data Ruangan
                                         </a>
                                     @endif
                                     <a class="dropdown-item" href="{{ route('index_lecturer') }}">
-                                        Daftar Dosen
+                                        Data Dosen
                                     </a>
 
                                     <a class="dropdown-item" href="{{ route('index_room') }}">
-                                        Daftar Ruangan
+                                        Data Ruangan
                                     </a>
                                     <a class="dropdown-item" href="{{ route('show_profile') }}">
-                                        Profile
+                                        My Profile
                                     </a>
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                         onclick="event.preventDefault();

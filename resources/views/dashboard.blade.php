@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <h4 class="h4">
-                    Daftar Status
+                    Data Status
                     Keberadaan Dosen
                 </h4>
                 <br>

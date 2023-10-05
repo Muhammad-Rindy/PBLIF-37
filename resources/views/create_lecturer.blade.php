@@ -7,14 +7,14 @@
                 <div class="row justify-content-center">
                     <div class="col-md-8">
                         @if (session('success'))
-                            <div
+                            <div id="live"
                                 class="alert fade alert-simple alert-success alert-dismissible text-left font__family-montserrat font__size-16 font__weight-light brk-library-rendered rendered show">
                                 <i class="start-icon far fa-check-circle faa-tada animated"></i>
                                 <strong class="font__weight-semibold">Well done! </strong>{{ session('success') }}
                             </div>
                         @endif
                         <div class="card">
-                            <div class="card-header">Tambah Dosen</div>
+                            <div class="card-header">Tambah Data Dosen Politeknik Negeri Batam</div>
 
                             <div class="card-body">
                                 <form action="{{ route('store_lecturer') }}" method="post" enctype="multipart/form-data">

@@ -2,8 +2,8 @@
 
 @section('content')
     @if (session('success'))
-        <div
-            class="alert fade alert-simple alert-success alert-dismissible text-left font__family-montserrat font__size-16 font__weight-light brk-library-rendered rendered show indent-alert">
+        <div id="live"
+            class="alert fade alert-simple alert-success alert-dismissible text-left font__family-montserrat font__size-16 font__weight-light brk-library-rendered rendered show">
             <i class="start-icon far fa-check-circle faa-tada animated"></i>
             <strong class="font__weight-semibold">Well done! </strong>{{ session('success') }}
         </div>
@@ -11,7 +11,7 @@
     <div class="container-box">
         <div class="container">
             <div class="row justify-content-center">
-                <h4 class="h4">Daftar Ruangan</h4>
+                <h4 class="h4">Data Ruangan Politeknik Negeri Batam</h4>
                 <br>
                 <br>
                 <div class="table-responsive">

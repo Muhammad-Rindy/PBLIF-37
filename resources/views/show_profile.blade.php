@@ -41,7 +41,7 @@
                                         <input type="password" name="password_confirmation" class="form-control">
                                     </div>
                                     <div style="text-align: center">
-                                        <button type="submit" class="btn button-23 m-2">Change profile details</button>
+                                        <button type="submit" class="btn button-23 m-2">Change Profile Details</button>
                                     </div>
                                 </form>
                             </div>
