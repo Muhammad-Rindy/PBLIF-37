@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Sistem Informasi Status Keberadaan Dosen</title>
+    <title>PBLIF 37 - Sistem Informasi Status Keberadaan Dosen</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
