@@ -37,7 +37,8 @@
         <nav class="navbar navbar-expand-md navbar-dark bg-dark"
             style="box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;">
             <div class="container">
-                <a class="navbar-brand" style="font-weight: bolder" href="{{ route('index_dashboard') }}">
+                <a class="navbar-brand" style="font-weight: bolder; color:#727cf5 "
+                    href="{{ route('index_dashboard') }}">
                     PBL IF - 37
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" musone
