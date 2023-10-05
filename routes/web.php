@@ -1,10 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ProductController;
-use App\Http\Controllers\CartController;
-use App\Http\Controllers\OrderController;
+use App\Http\Controllers\LecturerController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\RoomController;
 use Illuminate\Support\Facades\Redirect;
 
 /*
@@ -19,33 +18,31 @@ use Illuminate\Support\Facades\Redirect;
 */
 
 Route::get('/', function () {
-    return Redirect::route('index_product');
+    return Redirect::route('login');
 });
 
 Auth::routes();
 
-Route::get('/product', [ProductController::class, 'index_product'])->name('index_product');
+Route::get('/dashboard', [LecturerController::class, 'dashboard'])->name('index_dashboard');
+Route::get('/lecturers', [LecturerController::class, 'index_lecturer'])->name('index_lecturer');
+Route::get('/rooms', [RoomController::class, 'index_room'])->name('index_room');
 
 Route::middleware(['admin'])->group(function() {
-    Route::get('/product/create', [ProductController::class, 'create_product'])->name('create_product');
-    Route::post('/product/create', [ProductController::class, 'store_product'])->name('store_product');
-    Route::get('/product/{product}/edit', [ProductController::class, 'edit_product'])->name('edit_product');
-    Route::patch('/product/{product}/update', [ProductController::class, 'update_product'])->name('update_product');
-    Route::delete('/product/{product}', [ProductController::class, 'delete_product'])->name('delete_product');
-    Route::post('/order/{order}/confirm', [OrderController::class, 'confirm_payment'])->name('confirm_payment');
+    // Lecturer
+    Route::get('/lecturer/create', [LecturerController::class, 'create_lecturer'])->name('create_lecturer');
+    Route::post('/lecturer/create', [LecturerController::class, 'store_lecturer'])->name('store_lecturer');
+    Route::get('/lecturer/{lecturer}/edit', [LecturerController::class, 'edit_lecturer'])->name('edit_lecturer');
+    Route::patch('/lecturer/{lecturer}/update', [LecturerController::class, 'update_lecturer'])->name('update_lecturer');
+    Route::delete('/lecturer/{lecturer}', [LecturerController::class, 'destroy_lecturer'])->name('delete_lecturer');
+    // Rooms
+    Route::get('/room/create', [RoomController::class, 'create_room'])->name('create_room');
+    Route::post('/room/create', [RoomController::class, 'store_room'])->name('store_room');
+    Route::get('/room/{room}/edit', [RoomController::class, 'edit_room'])->name('edit_room');
+    Route::patch('/room/{room}/update', [RoomController::class, 'update_room'])->name('update_room');
+    Route::delete('/room/{room}', [RoomController::class, 'destroy_room'])->name('delete_room');
 });
 
 Route::middleware(['auth'])->group(function() {
-    Route::get('/product/{product}', [ProductController::class, 'show_product'])->name('show_product');
-    Route::post('/cart/{product}', [CartController::class, 'add_to_cart'])->name('add_to_cart');
-    Route::get('/cart', [CartController::class, 'show_cart'])->name('show_cart');
-    Route::patch('/cart/{cart}', [CartController::Class, 'update_cart'])->name('update_cart');
-    Route::delete('/cart/{cart}', [CartController::class, 'delete_cart'])->name('delete_cart');
-    Route::post('/checkout', [OrderController::class, 'checkout'])->name('checkout');
-    Route::get('/order', [OrderController::class, 'index_order'])->name('index_order');
-    Route::get('/order/{order}', [OrderController::class, 'show_order'])->name('show_order');
-    Route::post('/order/{order}/pay', [OrderController::class, 'submit_payment_receipt'])->name('submit_payment_receipt');
     Route::get('/profile', [ProfileController::class, 'show_profile'])->name('show_profile');
     Route::post('/profile', [ProfileController::class, 'edit_profile'])->name('edit_profile');
 });
-

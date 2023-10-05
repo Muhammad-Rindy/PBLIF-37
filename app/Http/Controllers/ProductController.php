@@ -4,11 +4,13 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Product;
+use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Redirect;
 
 class ProductController extends Controller
 {
+
     public function create_product()
     {
         return view('create_product');
@@ -40,6 +42,9 @@ class ProductController extends Controller
 
         return Redirect::route('index_product');
     }
+
+
+
 
     public function index_product()
     {
