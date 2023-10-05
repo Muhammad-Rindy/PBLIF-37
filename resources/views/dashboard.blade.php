@@ -6,7 +6,7 @@
             <div class="row justify-content-center">
                 <h4 class="h4">
                     Data Status
-                    Keberadaan Dosen
+                    Keberadaan Dosen Politeknik Negeri Batam
                 </h4>
                 <br>
                 <br>
@@ -24,106 +24,122 @@
                                     Gedung</th>
                                 <th style="text-align:center">
                                     Status</th>
+                                <th style="text-align:center">
+                                    Waktu Kehadiran</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
                             </tr>
                             <tr>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
                             </tr>
                             <tr>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
                             </tr>
                             <tr>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
                             </tr>
                             <tr>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
                             </tr>
                             <tr>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
                             </tr>
                             <tr>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
                             </tr>
                             <tr>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
                             </tr>
                             <tr>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
                             </tr>
                             <tr>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
                             </tr>
                             <tr>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
                             </tr>
                             <tr>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
                             </tr>
                             <tr>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
                             </tr>
                             <tr>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
-                                <td>Description</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
+                                <td>No Available</td>
                             </tr>
                         </tbody>
                     </table>
