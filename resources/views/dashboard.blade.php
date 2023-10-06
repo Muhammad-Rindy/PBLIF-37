@@ -17,129 +17,97 @@
                                 <th style="text-align:center">
                                     Nama Dosen</th>
                                 <th style="text-align:center">
-                                    NIK</th>
-                                <th style="text-align:center">
                                     Ruangan</th>
-                                <th style="text-align:center">
-                                    Gedung</th>
                                 <th style="text-align:center">
                                     Status</th>
                                 <th style="text-align:center">
-                                    Waktu Kehadiran</th>
+                                    Waktu & Tanggal Kehadiran</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
                             </tr>
                             <tr>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
                             </tr>
                             <tr>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
                             </tr>
                             <tr>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
                             </tr>
                             <tr>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
                             </tr>
                             <tr>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
                             </tr>
                             <tr>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
                             </tr>
                             <tr>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
                             </tr>
                             <tr>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
                             </tr>
                             <tr>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
                             </tr>
                             <tr>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
                             </tr>
                             <tr>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
                             </tr>
                             <tr>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
                             </tr>
                             <tr>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
-                                <td>No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
+                                <td style="text-align:center">No Available</td>
                             </tr>
                         </tbody>
                     </table>

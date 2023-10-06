@@ -33,12 +33,12 @@
                         <tbody>
                             @foreach ($rooms as $room)
                                 <tr>
-                                    <td style="vertical-align: middle">{{ $room->room }}</td>
-                                    <td style="vertical-align: middle">{{ $room->edifice }}</td>
-                                    <td style="vertical-align: middle">{{ $room->level }}</td>
+                                    <td style="vertical-align: middle;text-align:center">{{ $room->room }}</td>
+                                    <td style="vertical-align: middle;text-align:center">{{ $room->edifice }}</td>
+                                    <td style="vertical-align: middle;text-align:center">{{ $room->level }}</td>
                                     @if (Auth::user()->is_admin)
-                                        <td>
-                                            <div style="display: flex;">
+                                        <td style="text-align: center">
+                                            <div style="display: flex; justify-content: center; align-items: center;">
                                                 <div>
                                                     <form action="{{ route('edit_room', $room) }}" method="get">
                                                         <button type="submit" class="btn btn-primary m-1">Edit</button>

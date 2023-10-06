@@ -10392,8 +10392,8 @@ textarea.form-control-lg {
 
 
 .button-23 {
-    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #3544f9  100%);
-    border-radius: 8px;
+    background: linear-gradient(60deg, rgba(37,51,236,1) 0%, rgba(61,110,255,1) 50%, rgba(37,51,236,1) 100%);
+    border-radius: 10px;
     border: none;
     color: white;
     padding: 7px 23.5px;

@@ -25,7 +25,7 @@
                                 <th style="text-align:center">
                                     UUID</th>
                                 <th style="text-align:center">
-                                    No Whatsapp</th>
+                                    No. Whatsapp</th>
                                 @if (Auth::user()->is_admin)
                                     <th style="text-align:center">
                                         Action</th>
@@ -35,13 +35,13 @@
                         <tbody>
                             @foreach ($lecturers as $lecturer)
                                 <tr>
-                                    <td style="vertical-align: middle">{{ $lecturer->name }}</td>
-                                    <td style="vertical-align: middle">{{ $lecturer->nik }}</td>
-                                    <td style="vertical-align: middle">{{ $lecturer->uuid }}</td>
-                                    <td style="vertical-align: middle">{{ $lecturer->hp }}</td>
+                                    <td style="vertical-align: middle; text-align:center">{{ $lecturer->name }}</td>
+                                    <td style="vertical-align: middle; text-align:center">{{ $lecturer->nik }}</td>
+                                    <td style="vertical-align: middle; text-align:center">{{ $lecturer->uuid }}</td>
+                                    <td style="vertical-align: middle; text-align:center">{{ $lecturer->hp }}</td>
                                     @if (Auth::user()->is_admin)
-                                        <td>
-                                            <div style="display: flex;">
+                                        <td style="text-align: center">
+                                            <div style="display: flex; justify-content:center;align-items:center">
                                                 <div>
                                                     <form action="{{ route('edit_lecturer', $lecturer) }}" method="get">
                                                         <button type="submit" class="btn btn-primary m-1">Edit</button>
