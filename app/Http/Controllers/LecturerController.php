@@ -45,13 +45,15 @@ class LecturerController extends Controller
             'name' => 'required',
             'nik' => 'required',
             'uuid' => 'required',
-            'hp' => 'required',
+            'status' => 'required',
+            'hp' => 'required'
         ]);
 
         Lecturer::create([
             'name' => $request->name,
             'nik' => $request->nik,
             'uuid' => $request->uuid,
+            'status' => $request->status,
             'hp' => $request->hp,
         ]);
 

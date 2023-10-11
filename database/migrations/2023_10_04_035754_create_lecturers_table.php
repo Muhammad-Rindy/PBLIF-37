@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('name');
             $table->integer('nik');
             $table->integer('uuid');
+            $table->string('status');
             $table->integer('hp');
             $table->timestamps();
         });

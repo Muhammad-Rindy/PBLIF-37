@@ -14,6 +14,7 @@ class Lecturer extends Model
         'name',
         'nik',
         'uuid',
+        'status',
         'hp',
     ];
 }

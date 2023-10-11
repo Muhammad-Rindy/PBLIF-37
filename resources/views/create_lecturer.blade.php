@@ -21,7 +21,7 @@
                                     @csrf
 
                                     <div class="form-group m-3">
-                                        <label>Name Dosen</label>
+                                        <label>Nama Dosen</label>
                                         <input type="text" name="name" placeholder="Name" class="form-control"
                                             required>
                                     </div>
@@ -36,6 +36,12 @@
                                         <label>UUID Dosen</label>
                                         <input type="number" name="uuid" placeholder="UUID" class="form-control"
                                             required>
+                                    </div>
+
+                                    <div class="form-group m-3">
+                                        <label>Status</label>
+                                        <input type="text" name="status" placeholder="Tidak Hadir" class="form-control"
+                                            value="Tidak Hadir" disabled>
                                     </div>
 
                                     <div class="form-group m-3">

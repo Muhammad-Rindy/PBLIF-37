@@ -16,25 +16,30 @@
                                     @csrf
                                     <div class="form-group m-3">
                                         <label>Name Dosen</label>
-                                        <input type="text" name="name" placeholder="Name" class="form-control"
+                                        <input type="text" name="name" class="form-control"
                                             value="{{ $lecturer->name }}">
                                     </div>
-
                                     <div class="form-group m-3">
                                         <label>NIK Dosen</label>
-                                        <input type="number" name="nik" placeholder="NIK" class="form-control"
+                                        <input type="number" name="nik" class="form-control"
                                             value="{{ $lecturer->nik }}">
                                     </div>
 
                                     <div class="form-group m-3">
                                         <label>UUID Dosen</label>
-                                        <input type="number" name="uuid" placeholder="UUID" class="form-control"
+                                        <input type="number" name="uuid" class="form-control"
                                             value="{{ $lecturer->uuid }}">
                                     </div>
 
                                     <div class="form-group m-3">
+                                        <label>Status</label>
+                                        <input type="text" name="status" class="form-control"
+                                            value="{{ $lecturer->status }}" disabled>
+                                    </div>
+
+                                    <div class="form-group m-3">
                                         <label>No. Whatsapp</label>
-                                        <input type="number" name="hp" placeholder="No. Whatsapp" class="form-control"
+                                        <input type="number" name="hp" class="form-control"
                                             value="{{ $lecturer->hp }}">
                                     </div>
                                     <div style="text-align: center">
