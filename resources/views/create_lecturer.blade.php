@@ -12,6 +12,16 @@
                                 <i class="start-icon far fa-check-circle faa-tada animated"></i>
                                 <strong class="font__weight-semibold">Well done! </strong>{{ session('success') }}
                             </div>
+                        @elseif($errors->any())
+                            @foreach ($errors->all() as $error)
+                                <div id="live">
+                                    <div class="danger-alert">
+                                        <i class="far fa-times-circle shine-alert"></i>
+                                        &nbsp; &nbsp;
+                                        <span>Wrong! {{ $error }}</span>
+                                    </div>
+                                </div>
+                            @endforeach
                         @endif
                         <div class="card">
                             <div class="card-header">Tambah Data Dosen Politeknik Negeri Batam</div>
@@ -41,7 +51,7 @@
                                     <div class="form-group m-3">
                                         <label>Status</label>
                                         <input type="text" name="status" placeholder="Tidak Hadir" class="form-control"
-                                            value="Tidak Hadir" disabled>
+                                            value="0" readonly>
                                     </div>
 
                                     <div class="form-group m-3">

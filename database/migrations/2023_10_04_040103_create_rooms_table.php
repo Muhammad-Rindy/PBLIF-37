@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('room');
             $table->string('edifice');
             $table->integer('level');
+            $table->timestamps();
         });
     }
 
