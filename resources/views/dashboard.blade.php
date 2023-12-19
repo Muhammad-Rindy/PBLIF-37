@@ -5,9 +5,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <h4 class="h4">
-                    Data Status
-                    Keberadaan Dosen Politeknik Negeri Batam
-                </h4>
+                    Ruangan {{ $rooms->room }} </h4>
                 <br>
                 <br>
                 <div class="table-responsive">
@@ -15,101 +13,28 @@
                         <thead class="table-dark">
                             <tr>
                                 <th style="text-align:center">
-                                    Nama Dosen</th>
+                                    No</th>
                                 <th style="text-align:center">
-                                    Ruangan</th>
+                                    NIK</th>
+                                <th style="text-align:center">
+                                    Inisial</th>
+                                <th style="text-align:center">
+                                    Nama</th>
                                 <th style="text-align:center">
                                     Status</th>
-                                <th style="text-align:center">
-                                    Waktu & Tanggal Kehadiran</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <tr>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                                <td style="text-align:center">No Available</td>
-                            </tr>
-                        </tbody>
+                        @foreach ($lecturers as $lecturer)
+                            <tbody>
+                                <tr>
+                                    <td style="text-align:center">{{ $loop->iteration }}</td>
+                                    <td style="text-align:center">{{ $lecturer->nik }}</td>
+                                    <td style="text-align:center">{{ $lecturer->initial }}</td>
+                                    <td style="text-align:center">{{ $lecturer->name }}</td>
+                                    <td style="text-align:center"></td>
+                                </tr>
+                            </tbody>
+                        @endforeach
                     </table>
                 </div>
             </div>

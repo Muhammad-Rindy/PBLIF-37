@@ -26,6 +26,7 @@ Auth::routes();
 Route::get('/dashboard', [LecturerController::class, 'dashboard'])->name('index_dashboard');
 Route::get('/lecturers', [LecturerController::class, 'index_lecturer'])->name('index_lecturer');
 Route::get('/rooms', [RoomController::class, 'index_room'])->name('index_room');
+Route::post('/rfid/store', [LecturerController::class, 'store_rfid'])->name('store-rfid');
 
 Route::middleware(['admin'])->group(function() {
     // Lecturer

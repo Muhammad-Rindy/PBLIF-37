@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Attendance;
 use App\Models\Lecturer;
+use App\Models\Room;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
 
@@ -15,7 +17,11 @@ class LecturerController extends Controller
      */
     public function dashboard()
     {
-        return view('dashboard');
+        $rooms = Room::first();
+
+        $lecturers = Lecturer::all();
+
+        return view('dashboard', compact('rooms', 'lecturers'));
     }
     public function index_lecturer()
     {
@@ -44,17 +50,15 @@ class LecturerController extends Controller
         $request->validate([
             'name' => 'required',
             'nik' => 'required',
-            'uuid' => 'required',
             'status' => 'required',
-            'hp' => 'required'
+            'initial' => 'required',
         ]);
 
         Lecturer::create([
             'name' => $request->name,
             'nik' => $request->nik,
-            'uuid' => $request->uuid,
             'status' => $request->status,
-            'hp' => $request->hp,
+            'initial' => $request->initial,
         ]);
 
         return Redirect::back()->with('success', 'Form submitted successfully.');
@@ -78,6 +82,21 @@ class LecturerController extends Controller
         return view('edit_lecturer', compact('lecturer'));
     }
 
+
+    public function store_rfid(Request $request)
+    {
+        // Ambil UUID dari request
+        $uuid = $request->input('uuid');
+
+        // Simpan UUID ke database
+        $attendance = new Attendance();
+        $attendance->uuid = $uuid;
+        $attendance->save();
+
+        return response()->json(['message' => 'UUID berhasil disimpan'], 201);
+    }
+
+
     /**
      * Update the specified resource in storage.
      *
@@ -90,15 +109,13 @@ class LecturerController extends Controller
         $request->validate([
             'name' => 'required',
             'nik' => 'required',
-            'uuid' => 'required',
-            'hp' => 'required',
+            'initial' => 'required',
         ]);
 
         $lecturer->update([
             'name' => $request->name,
             'nik' => $request->nik,
-            'uuid' => $request->uuid,
-            'hp' => $request->hp,
+            'initial' => $request->initial,
         ]);
 
         return Redirect::route('index_lecturer')->with('success', 'Updated successfully.');;

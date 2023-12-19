@@ -23,9 +23,7 @@
                                 <th style="text-align:center">
                                     NIK</th>
                                 <th style="text-align:center">
-                                    UUID</th>
-                                <th style="text-align:center">
-                                    No. Whatsapp</th>
+                                    Inisial</th>
                                 @if (Auth::user()->is_admin)
                                     <th style="text-align:center">
                                         Action</th>
@@ -37,8 +35,7 @@
                                 <tr>
                                     <td style="vertical-align: middle; text-align:center">{{ $lecturer->name }}</td>
                                     <td style="vertical-align: middle; text-align:center">{{ $lecturer->nik }}</td>
-                                    <td style="vertical-align: middle; text-align:center">{{ $lecturer->uuid }}</td>
-                                    <td style="vertical-align: middle; text-align:center">{{ $lecturer->hp }}</td>
+                                    <td style="vertical-align: middle; text-align:center">{{ $lecturer->initial }}</td>
                                     @if (Auth::user()->is_admin)
                                         <td style="text-align: center">
                                             <div style="display: flex; justify-content:center;align-items:center">

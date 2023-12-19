@@ -35,16 +35,13 @@
                                         <input type="text" name="name" placeholder="Name" class="form-control"
                                             required>
                                     </div>
-
+                                    <div class="form-group m-3">
+                                        <label>Inisial</label>
+                                        <input type="text" name="initial" class="form-control" required>
+                                    </div>
                                     <div class="form-group m-3">
                                         <label>NIK Dosen</label>
                                         <input type="number" name="nik" placeholder="NIK" class="form-control"
-                                            required>
-                                    </div>
-
-                                    <div class="form-group m-3">
-                                        <label>UUID Dosen</label>
-                                        <input type="number" name="uuid" placeholder="UUID" class="form-control"
                                             required>
                                     </div>
 
@@ -54,11 +51,6 @@
                                             value="0" readonly>
                                     </div>
 
-                                    <div class="form-group m-3">
-                                        <label>No. Whatsapp</label>
-                                        <input type="number" name="hp" placeholder="No. Whatsapp" class="form-control"
-                                            required>
-                                    </div>
                                     <div style="text-align:center">
                                         <button type="submit" class="btn m-2 button-23">Submit data</button>
                                     </div>
