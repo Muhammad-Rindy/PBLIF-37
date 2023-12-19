@@ -22,7 +22,7 @@
                                     <div class="form-group m-3">
                                         <label>Inisial</label>
                                         <input type="text" name="initial" class="form-control"
-                                            value="{{ $lecturer->name }}">
+                                            value="{{ $lecturer->initial }}">
                                     </div>
                                     <div class="form-group m-3">
                                         <label>NIK Dosen</label>
